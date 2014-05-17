@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1446ED1A19276D77003C98DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED1919276D77003C98DF /* Foundation.framework */; };
+		1446ED4319276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED4019276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m */; };
+		1446ED4419276DEF003C98DF /* UZToolbarTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED4219276DEF003C98DF /* UZToolbarTapGestureRecognizer.m */; };
+		1446ED4A19276E18003C98DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED1919276D77003C98DF /* Foundation.framework */; };
+		1446ED4C19276E18003C98DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED4B19276E18003C98DF /* CoreGraphics.framework */; };
+		1446ED4D19276E18003C98DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED2A19276D77003C98DF /* UIKit.framework */; };
+		1446ED5319276E18003C98DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1446ED5119276E18003C98DF /* InfoPlist.strings */; };
+		1446ED5519276E18003C98DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED5419276E18003C98DF /* main.m */; };
+		1446ED5919276E18003C98DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED5819276E18003C98DF /* AppDelegate.m */; };
+		1446ED5C19276E18003C98DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1446ED5A19276E18003C98DF /* Main.storyboard */; };
+		1446ED5F19276E18003C98DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED5E19276E18003C98DF /* ViewController.m */; };
+		1446ED6119276E18003C98DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1446ED6019276E18003C98DF /* Images.xcassets */; };
+		1446ED6819276E18003C98DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED1919276D77003C98DF /* Foundation.framework */; };
+		1446ED6919276E18003C98DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446ED2A19276D77003C98DF /* UIKit.framework */; };
+		1446ED7C19276E5F003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED4019276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m */; };
+		1446ED7D19276E5F003C98DF /* UZToolbarTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446ED4219276DEF003C98DF /* UZToolbarTapGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1446ED6A19276E18003C98DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1446ED0E19276D77003C98DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1446ED4819276E17003C98DF;
+			remoteInfo = UZPreventGestureConflictingWithToolbarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1446ED1419276D77003C98DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1446ED1619276D77003C98DF /* libUZPreventGestureConflictingWithToolbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUZPreventGestureConflictingWithToolbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1446ED1919276D77003C98DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1446ED2A19276D77003C98DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1446ED3F19276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PreventGestureConflictingWithToolbar.h"; sourceTree = "<group>"; };
+		1446ED4019276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PreventGestureConflictingWithToolbar.m"; sourceTree = "<group>"; };
+		1446ED4119276DEF003C98DF /* UZToolbarTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZToolbarTapGestureRecognizer.h; sourceTree = "<group>"; };
+		1446ED4219276DEF003C98DF /* UZToolbarTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZToolbarTapGestureRecognizer.m; sourceTree = "<group>"; };
+		1446ED4919276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UZPreventGestureConflictingWithToolbarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1446ED4B19276E18003C98DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1446ED5019276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UZPreventGestureConflictingWithToolbarSample-Info.plist"; sourceTree = "<group>"; };
+		1446ED5219276E18003C98DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1446ED5419276E18003C98DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1446ED5619276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UZPreventGestureConflictingWithToolbarSample-Prefix.pch"; sourceTree = "<group>"; };
+		1446ED5719276E18003C98DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1446ED5819276E18003C98DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1446ED5B19276E18003C98DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1446ED5D19276E18003C98DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1446ED5E19276E18003C98DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1446ED6019276E18003C98DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1446ED6619276E18003C98DF /* UZPreventGestureConflictingWithToolbarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UZPreventGestureConflictingWithToolbarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1446ED1319276D77003C98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED1A19276D77003C98DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1446ED4619276E17003C98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED4C19276E18003C98DF /* CoreGraphics.framework in Frameworks */,
+				1446ED4D19276E18003C98DF /* UIKit.framework in Frameworks */,
+				1446ED4A19276E18003C98DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1446ED6319276E18003C98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED6919276E18003C98DF /* UIKit.framework in Frameworks */,
+				1446ED6819276E18003C98DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1446ED0D19276D77003C98DF = {
+			isa = PBXGroup;
+			children = (
+				1446ED1B19276D77003C98DF /* UZPreventGestureConflictingWithToolbar */,
+				1446ED4E19276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample */,
+				1446ED1819276D77003C98DF /* Frameworks */,
+				1446ED1719276D77003C98DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1446ED1719276D77003C98DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1446ED1619276D77003C98DF /* libUZPreventGestureConflictingWithToolbar.a */,
+				1446ED4919276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample.app */,
+				1446ED6619276E18003C98DF /* UZPreventGestureConflictingWithToolbarSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1446ED1819276D77003C98DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1446ED4B19276E18003C98DF /* CoreGraphics.framework */,
+				1446ED1919276D77003C98DF /* Foundation.framework */,
+				1446ED2A19276D77003C98DF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1446ED1B19276D77003C98DF /* UZPreventGestureConflictingWithToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				1446ED3F19276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.h */,
+				1446ED4019276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m */,
+				1446ED4119276DEF003C98DF /* UZToolbarTapGestureRecognizer.h */,
+				1446ED4219276DEF003C98DF /* UZToolbarTapGestureRecognizer.m */,
+			);
+			path = UZPreventGestureConflictingWithToolbar;
+			sourceTree = "<group>";
+		};
+		1446ED4E19276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample */ = {
+			isa = PBXGroup;
+			children = (
+				1446ED5719276E18003C98DF /* AppDelegate.h */,
+				1446ED5819276E18003C98DF /* AppDelegate.m */,
+				1446ED5A19276E18003C98DF /* Main.storyboard */,
+				1446ED5D19276E18003C98DF /* ViewController.h */,
+				1446ED5E19276E18003C98DF /* ViewController.m */,
+				1446ED6019276E18003C98DF /* Images.xcassets */,
+				1446ED4F19276E18003C98DF /* Supporting Files */,
+			);
+			path = UZPreventGestureConflictingWithToolbarSample;
+			sourceTree = "<group>";
+		};
+		1446ED4F19276E18003C98DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1446ED5019276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample-Info.plist */,
+				1446ED5119276E18003C98DF /* InfoPlist.strings */,
+				1446ED5419276E18003C98DF /* main.m */,
+				1446ED5619276E18003C98DF /* UZPreventGestureConflictingWithToolbarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1446ED1519276D77003C98DF /* UZPreventGestureConflictingWithToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1446ED3919276D77003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbar" */;
+			buildPhases = (
+				1446ED1219276D77003C98DF /* Sources */,
+				1446ED1319276D77003C98DF /* Frameworks */,
+				1446ED1419276D77003C98DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UZPreventGestureConflictingWithToolbar;
+			productName = UZPreventGestureConflictingWithToolbar;
+			productReference = 1446ED1619276D77003C98DF /* libUZPreventGestureConflictingWithToolbar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1446ED4819276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1446ED7419276E18003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbarSample" */;
+			buildPhases = (
+				1446ED4519276E17003C98DF /* Sources */,
+				1446ED4619276E17003C98DF /* Frameworks */,
+				1446ED4719276E17003C98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UZPreventGestureConflictingWithToolbarSample;
+			productName = UZPreventGestureConflictingWithToolbarSample;
+			productReference = 1446ED4919276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1446ED6519276E18003C98DF /* UZPreventGestureConflictingWithToolbarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1446ED7719276E18003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbarSampleTests" */;
+			buildPhases = (
+				1446ED6219276E18003C98DF /* Sources */,
+				1446ED6319276E18003C98DF /* Frameworks */,
+				1446ED6419276E18003C98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1446ED6B19276E18003C98DF /* PBXTargetDependency */,
+			);
+			name = UZPreventGestureConflictingWithToolbarSampleTests;
+			productName = UZPreventGestureConflictingWithToolbarSampleTests;
+			productReference = 1446ED6619276E18003C98DF /* UZPreventGestureConflictingWithToolbarSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1446ED0E19276D77003C98DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sonson;
+				TargetAttributes = {
+					1446ED6519276E18003C98DF = {
+						TestTargetID = 1446ED4819276E17003C98DF;
+					};
+				};
+			};
+			buildConfigurationList = 1446ED1119276D77003C98DF /* Build configuration list for PBXProject "UZPreventGestureConflictingWithToolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1446ED0D19276D77003C98DF;
+			productRefGroup = 1446ED1719276D77003C98DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1446ED1519276D77003C98DF /* UZPreventGestureConflictingWithToolbar */,
+				1446ED4819276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample */,
+				1446ED6519276E18003C98DF /* UZPreventGestureConflictingWithToolbarSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1446ED4719276E17003C98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED6119276E18003C98DF /* Images.xcassets in Resources */,
+				1446ED5319276E18003C98DF /* InfoPlist.strings in Resources */,
+				1446ED5C19276E18003C98DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1446ED6419276E18003C98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1446ED1219276D77003C98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED4419276DEF003C98DF /* UZToolbarTapGestureRecognizer.m in Sources */,
+				1446ED4319276DEF003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1446ED4519276E17003C98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1446ED5F19276E18003C98DF /* ViewController.m in Sources */,
+				1446ED5919276E18003C98DF /* AppDelegate.m in Sources */,
+				1446ED5519276E18003C98DF /* main.m in Sources */,
+				1446ED7D19276E5F003C98DF /* UZToolbarTapGestureRecognizer.m in Sources */,
+				1446ED7C19276E5F003C98DF /* UINavigationController+PreventGestureConflictingWithToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1446ED6219276E18003C98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1446ED6B19276E18003C98DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1446ED4819276E17003C98DF /* UZPreventGestureConflictingWithToolbarSample */;
+			targetProxy = 1446ED6A19276E18003C98DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1446ED5119276E18003C98DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1446ED5219276E18003C98DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1446ED5A19276E18003C98DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1446ED5B19276E18003C98DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1446ED3719276D77003C98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1446ED3819276D77003C98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1446ED3A19276D77003C98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UZPreventGestureConflictingWithToolbar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1446ED3B19276D77003C98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UZPreventGestureConflictingWithToolbar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1446ED7519276E18003C98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1446ED7619276E18003C98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Prefix.pch";
+				INFOPLIST_FILE = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1446ED7819276E18003C98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UZPreventGestureConflictingWithToolbarSample.app/UZPreventGestureConflictingWithToolbarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UZPreventGestureConflictingWithToolbarSampleTests/UZPreventGestureConflictingWithToolbarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1446ED7919276E18003C98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UZPreventGestureConflictingWithToolbarSample.app/UZPreventGestureConflictingWithToolbarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZPreventGestureConflictingWithToolbarSample/UZPreventGestureConflictingWithToolbarSample-Prefix.pch";
+				INFOPLIST_FILE = "UZPreventGestureConflictingWithToolbarSampleTests/UZPreventGestureConflictingWithToolbarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1446ED1119276D77003C98DF /* Build configuration list for PBXProject "UZPreventGestureConflictingWithToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446ED3719276D77003C98DF /* Debug */,
+				1446ED3819276D77003C98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1446ED3919276D77003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446ED3A19276D77003C98DF /* Debug */,
+				1446ED3B19276D77003C98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1446ED7419276E18003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446ED7519276E18003C98DF /* Debug */,
+				1446ED7619276E18003C98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1446ED7719276E18003C98DF /* Build configuration list for PBXNativeTarget "UZPreventGestureConflictingWithToolbarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1446ED7819276E18003C98DF /* Debug */,
+				1446ED7919276E18003C98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1446ED0E19276D77003C98DF /* Project object */;
+}
