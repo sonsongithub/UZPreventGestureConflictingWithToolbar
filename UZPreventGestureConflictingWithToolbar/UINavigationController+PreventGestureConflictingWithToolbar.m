@@ -14,11 +14,14 @@
  * Attached UZToolbarTapGestureRecognizer to the UINavigationController's toolbar.
  **/
 - (void)setGestureRecognizerToPreventGestureConflictingWithToolbar {
+	// Check whether UZToolbarTapGestureRecognizer has been already attached to the UINavigationController's UIToolbar.
 	for (id obj in self.toolbar.gestureRecognizers) {
 		if ([obj isKindOfClass:[UZToolbarTapGestureRecognizer class]]) {
 			return;
 		}
 	}
+	
+	// Attach UZToolbarTapGestureRecognizer to the UIToolbar of UINavigationBar.
 	UZToolbarTapGestureRecognizer* tapGesture = [[UZToolbarTapGestureRecognizer alloc] initWithTarget:nil action:nil];
 	tapGesture.dummyDelegate = self;
 	[self.toolbar addGestureRecognizer:tapGesture];
